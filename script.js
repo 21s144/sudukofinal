@@ -127,7 +127,7 @@ else if(level=="medium"){
         if((document.getElementById(document.activeElement.id).value==medium[choosen][document.activeElement.id-1])||(document.getElementById(document.activeElement.id).value=='')){
             for(var i=0;i<81;i++){
                 if(i==80 && document.getElementById((81).toString()).value!='' ){
-                        alert("you win !! congratulation.....");
+                        alert("you win !! congratulation....!");
                         clearInterval(id);
                         window.location.reload();
                 }
